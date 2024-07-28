@@ -21,7 +21,6 @@ caesar_cipher <- function(text, shift) {
   return(encrypted_text)
 }
 
-# Main function to run the Caesar cipher
 main <- function() {
   sentence <- readline(prompt = "Enter a sentence to encrypt: ")
   shift <- as.integer(readline(prompt = "Enter the shift value: "))
@@ -30,6 +29,5 @@ main <- function() {
   cat("Encrypted sentence:", encrypted_sentence, "\n")
 }
 
-# Run the main function
 main()
 
