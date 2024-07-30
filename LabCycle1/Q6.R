@@ -16,11 +16,11 @@ prime <- function(n) {
 
 main <- function(){
   while (TRUE) {
-    cat("\n\n1. Check if the given number is prime. \n2. Print all prime numbers in a given range. \n3. Quit.")
+    cat("\n\n1. Check if the given number is prime. \n2. Print all prime numbers within arange. \n3. Quit.")
     choice <- as.integer(readline(prompt = "Enter your choice: "))
     
     if (choice == 1){
-      n <- as.integer(readline(prompt = "Enter the integer to check: "))
+      n <- as.integer(readline(prompt = "Enter the integer: "))
       if (prime(n))
         cat(n, "is a prime number.")
       else
