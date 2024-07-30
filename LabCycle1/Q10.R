@@ -8,7 +8,7 @@ reversal <- function(input){
 
 main <- function(){
   
-  input <- readline(prompt = "Enter space-separated elements: ")
+  input <- readline(prompt = "Enter space separated: ")
   input <- unlist(strsplit(input, " "))
   
   reversed <- reversal(input)
