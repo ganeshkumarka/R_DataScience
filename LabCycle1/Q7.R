@@ -1,6 +1,6 @@
 fibonacci_twist <- function(n){
   if (n <= 0){
-    cat("Please enter a positive integer..")
+    cat("enter a positive integer..")
     n <- as.integer(readline(prompt = "Enter the number of terms: "))
   }
   
